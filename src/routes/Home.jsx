@@ -1,7 +1,11 @@
+import Hero from "../components/Hero";
+import { NavbarView } from "../components/Navbar";
+
 function Home() {
 	return (
 		<>
-			<h1>This is Home</h1>
+			<NavbarView />
+			<Hero />
 		</>
 	)
 }
