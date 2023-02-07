@@ -73,6 +73,10 @@ button:hover {
 	display: none;
 }
 
+span {
+	color: rgb(255, 255, 153);
+}
+
 @media screen and (max-width: 915px) {
 	.NavbarItems {
 		z-index: 99;

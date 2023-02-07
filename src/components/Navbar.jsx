@@ -13,7 +13,7 @@ export class NavbarView extends React.Component {
 	render() {
 		return (
 			<nav className='NavbarItems'>
-				<h1 className='navbar-logo'>Hive.Heroes</h1>
+				<h1 className='navbar-logo'>Hive<span>.</span>Heroes</h1>
 
 				<div className='menu-icons' onClick={this.handleClick}>
 					<i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
