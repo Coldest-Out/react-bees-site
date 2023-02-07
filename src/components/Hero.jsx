@@ -4,18 +4,18 @@ function Hero(props) {
 	return (
 		<>
 			<div className={props.cName}>
-				<img width='100px' height='100px'
-					src={props.heroImg}></img>
-				<h1>Join the movement to save bumble bees and become a HiveHero today!</h1>
-				<p>"Hiving a sweet-life, one flower at a time."</p>
-				<p>"Make the most out of every buzz-zing moment."</p>
-				<p>"Bee-lieve in the power of pollen."</p>
-				<a href='/'>
-					Learn More
-				</a>
+				<img src={props.heroImg}></img>
+
+				<div className='hero-text'>
+					<h1>{props.title}</h1>
+					<p>{props.text}</p>
+					<a href={props.url} className={props.btnClass}>
+						{props.buttonText}
+					</a>
+				</div>
 			</div>
 		</>
-	)
+	);
 }
 
 export default Hero;

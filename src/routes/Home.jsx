@@ -5,7 +5,15 @@ function Home() {
 	return (
 		<>
 			<NavbarView />
-			<Hero />
+			<Hero
+				cName='hero'
+				heroImg='src/assets/bee8.jpg'
+				title='Join the movement and become a HiveHero today!'
+				text='Hiving a sweet-life, one flower at a time.'
+				buttonText='Learn More'
+				url='/'
+				btnClass='show'
+			/>
 		</>
 	)
 }
