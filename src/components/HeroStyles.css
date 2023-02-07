@@ -48,7 +48,6 @@ img {
 .hero-text .show:hover {
 	background: rgb(255, 255, 153);
 	transition: 0.3s ease-in-out;
-
 }
 
 
@@ -67,6 +66,4 @@ img {
 		border-radius: 6px;
 		font-size: 1rem;
 	}
-
-
 }
