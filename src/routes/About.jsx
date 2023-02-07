@@ -7,13 +7,13 @@ function About() {
 		<>
 			<NavbarView />
 			<Hero
-				cName='hero'
+				cName='hero-mid'
 				heroImg={AboutImg}
-				title='Join the movement and become a HiveHero today!'
-				text='Hiving a sweet-life, one flower at a time.'
-				buttonText='Learn More'
-				url='/'
-				btnClass='show'
+				title="What's all the Buzz? Who are Hive Heroes?"
+				//text='Hiving a sweet-life, one flower at a time.'
+				//buttonText='Learn More'
+				//url='/'
+				btnClass='hide'
 			/>
 		</>
 	)
