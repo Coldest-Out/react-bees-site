@@ -1,4 +1,5 @@
 import Hero from "../components/Hero";
+import Info from "../components/Info";
 import { NavbarView } from "../components/Navbar";
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
 				url='/'
 				btnClass='show'
 			/>
+			<Info />
 		</>
 	)
 }
