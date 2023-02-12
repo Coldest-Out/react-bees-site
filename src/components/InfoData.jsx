@@ -6,15 +6,15 @@ import "./InfoStyles.css";
 class InfoData extends Component {
 	render() {
 		return (
-			<div className="first-info">
+			<div className={this.props.className}>
 				<div className="des-text">
-					<h2>The Power of Pollen</h2>
-					<p>Bumblebees are essential pollinators that play a vital role in the ecosystem. They are known for their fuzzy, black-and-yellow bodies and their ability to pollinate a wide variety of plants, including many important crops such as tomatoes, blueberries, and apples. However, bumblebee populations have been declining in recent years due to a combination of factors, including habitat loss, pesticide use, and climate change.</p>
+					<h2>{this.props.heading}</h2>
+					<p>{this.props.text}</p>
 				</div>
 
 				<div className="image">
-					<img alt="img" src={Bumblebee3}></img>
-					<img alt="img" src={Bumblebee4}></img>
+					<img alt="img" src={this.props.img1}></img>
+					<img alt="img" src={this.props.img2}></img>
 				</div>
 			</div>
 		)
