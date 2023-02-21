@@ -1,6 +1,8 @@
 import { NavbarView } from "../components/Navbar";
 import Hero from "../components/Hero";
 import AboutImg from '../assets/bee5.jpg'
+import Footer from "../components/Footer";
+import AboutUs from "../components/AboutUs";
 
 function About() {
 	return (
@@ -15,6 +17,8 @@ function About() {
 				//url='/'
 				btnClass='hide'
 			/>
+			<AboutUs />
+			<Footer />
 		</>
 	)
 }

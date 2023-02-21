@@ -1,6 +1,8 @@
 import { NavbarView } from "../components/Navbar";
 import Hero from "../components/Hero";
 import ServiceImg from '../assets/bee7.jpg'
+import Footer from "../components/Footer";
+import Cards from "../components/Cards";
 
 function Service() {
 	return (
@@ -15,6 +17,8 @@ function Service() {
 				//url='/'
 				btnClass='hide'
 			/>
+			<Cards />
+			<Footer />
 		</>
 	)
 }
