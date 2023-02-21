@@ -49,6 +49,10 @@
 }
 
 @media screen and (max-width: 660px) {
+	.footer {
+		padding: 4rem 2rem;
+	}
+
 	.top {
 		justify-content: center;
 		text-align: center;
@@ -57,5 +61,10 @@
 
 	.top div {
 		margin: 0.5rem;
+	}
+
+	.bottom div {
+		width: 50%;
+		margin-bottom: 1rem;
 	}
 }
