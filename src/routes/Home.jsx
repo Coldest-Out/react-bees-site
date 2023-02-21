@@ -3,6 +3,7 @@ import Info from "../components/Info";
 import Cards from "../components/Cards";
 import { NavbarView } from "../components/Navbar";
 import Footer from "../components/Footer";
+import HomeImg from "../assets/bee8.jpg";
 
 function Home() {
 	return (
@@ -10,7 +11,7 @@ function Home() {
 			<NavbarView />
 			<Hero
 				cName='hero'
-				heroImg='src/assets/bee8.jpg'
+				heroImg={HomeImg}
 				title='Join the movement and become a HiveHero today!'
 				text='Hiving a sweet-life, one flower at a time.'
 				buttonText='Learn More'
