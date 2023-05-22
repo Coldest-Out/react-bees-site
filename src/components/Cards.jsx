@@ -14,19 +14,31 @@ function Cards() {
 				<CardsData
 					image={CardImage1}
 					heading="Psuedo Heading"
-					text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper. Est ante in nibh mauris. Arcu odio ut sem nulla pharetra diam sit. Pretium viverra suspendisse potenti nullam. Purus non enim praesent elementum facilisis leo."
+					text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+					tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit 
+					sed ullamcorper. Est ante in nibh mauris. Arcu odio ut sem nulla pharetra diam sit. 
+					Pretium viverra suspendisse potenti nullam. Purus non enim praesent elementum facilisis 
+					leo."
 				/>
 
 				<CardsData
 					image={CardImage2}
 					heading="Psuedo Heading"
-					text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper. Est ante in nibh mauris. Arcu odio ut sem nulla pharetra diam sit. Pretium viverra suspendisse potenti nullam. Purus non enim praesent elementum facilisis leo."
+					text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Mattis ullamcorper velit sed ullamcorper. Est ante in nibh mauris. 
+					Arcu odio ut sem nulla pharetra diam sit. Pretium viverra suspendisse 
+					potenti nullam. Purus non enim praesent elementum facilisis leo."
 				/>
 
 				<CardsData
 					image={CardImage3}
 					heading="Psuedo Heading"
-					text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper. Est ante in nibh mauris. Arcu odio ut sem nulla pharetra diam sit. Pretium viverra suspendisse potenti nullam. Purus non enim praesent elementum facilisis leo."
+					text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Mattis ullamcorper velit sed ullamcorper. Est ante in nibh mauris. 
+					Arcu odio ut sem nulla pharetra diam sit. Pretium viverra suspendisse 
+					potenti nullam. Purus non enim praesent elementum facilisis leo."
 				/>
 
 			</div>
